@@ -1,6 +1,7 @@
 {
   "item.testmod.raw_ruby": "Raw Ruby",
   "item.testmod.ruby": "Ruby",
+  "item.testmod.eight_ball": "Magic Eight Ball",
 
   "block.testmod.ruby_block": "Ruby Block",
   "block.testmod.ruby_ore": "Ruby Ore",
