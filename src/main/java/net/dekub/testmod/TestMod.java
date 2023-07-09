@@ -1,5 +1,6 @@
 package net.dekub.testmod;
 
+import net.dekub.testmod.block.ModBlocks;
 import net.dekub.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,6 @@ public class TestMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
-
+		ModBlocks.registerModBlocks();
 	}
 }
