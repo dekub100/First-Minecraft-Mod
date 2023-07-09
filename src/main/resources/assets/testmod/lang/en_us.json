@@ -1,6 +1,11 @@
 {
-  "item.testmod.raw_unknown_ore": "Raw Unknown Ore",
-  "item.testmod.unknown_ore": "Unknown Ore",
+  "item.testmod.raw_ruby": "Raw Ruby",
+  "item.testmod.ruby": "Ruby",
 
-  "itemGroup.testmod.unknown_ore": "Unknown Ore Test Tab"
+  "block.testmod.ruby_block": "Ruby Block",
+  "block.testmod.ruby_ore": "Ruby Ore",
+  "block.testmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+
+
+  "itemGroup.testmod.ruby": "Ruby Test Tab"
 }
