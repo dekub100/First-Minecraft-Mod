@@ -1,6 +1,7 @@
 package net.dekub.testmod.block;
 
 import net.dekub.testmod.TestMod;
+import net.dekub.testmod.block.custom.JumpyBlock;
 import net.dekub.testmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -20,6 +21,8 @@ public class ModBlocks {
     public static final Block RUBY_ORE = registerBlock("ruby_ore", new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.RUBY);
 
     public static final Block DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore", new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), UniformIntProvider.create(3, 7)), ModItemGroup.RUBY);
+
+    public static final Block JUMPY_BLOCK = registerBlock("jumpy_block", new JumpyBlock(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ModItemGroup.RUBY);
 
 private static Block registerBlock(String name, Block block, ItemGroup tab) {
     registerBlockItem(name, block, tab);
