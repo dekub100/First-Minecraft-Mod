@@ -6,6 +6,7 @@
   "block.testmod.ruby_block": "Ruby Block",
   "block.testmod.ruby_ore": "Ruby Ore",
   "block.testmod.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.testmod.compressed_diamond_block": "Compressed Diamond Block",
 
 
   "itemGroup.testmod.ruby": "Ruby Test Tab"
